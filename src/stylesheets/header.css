@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 10px var(--DARKGRAY);
+    background-color: var(--WHITE);
+}
+
+.header h3 {
+    font-weight: var(--WEIGHT800);
+    padding-left: 10px;
+}
+
+.header button {
+    margin-right: 10px;
+    padding: 10px;
+    background-color: var(--WHITE);
+    border: none;
+    cursor: pointer;
+}
