@@ -1,7 +1,6 @@
 .container-search {
   width: 90%;
   display: flex;
-  flex: 1;
   align-items: center;
   justify-content: center;
 }
@@ -34,4 +33,12 @@
     0px 4px 5px -2px var(--VERYLIGHTGRAY);
   outline: none;
   cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+  
+  .container-search {
+    width: 600px;
+    margin-left: 40px;
+  }
 }

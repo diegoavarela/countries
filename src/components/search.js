@@ -1,11 +1,15 @@
-import React from "react";
+import React, {useRef} from "react";
 import "../stylesheets/search.css";
 
-function Search() {
+function Search({onSearch}) {
+
+const searchRef = useRef(null);
+  
+
     return (
         <div className="container-search"> 
-            <button type="button"><i class="bi bi-search"></i></button>
-            <input type="text" placeholder="Search for a country ..." className="search-box"></input>
+            <button type="button" onClick={() => onSearch(searchRef.current.value)}><i className="bi bi-search"></i></button>
+            <input type="text" placeholder="Search for a country ..." className="search-box" ref={searchRef}></input>
         </div>
     )
 }
