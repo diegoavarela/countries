@@ -7,7 +7,6 @@
 }
 
 :root {
-
   /* COLORS */
 
   --DARKBLUE: hsl(209, 23%, 22%);
@@ -25,14 +24,11 @@
   --WEIGHT300: 300;
   --WEIGHT600: 600;
   --WEIGHT800: 800;
-
 }
 
 .App {
-
   font-family: var(--FONTFAMLY);
   background-color: var(--VERYLIGHTGRAY);
-
 }
 
 .search-filter {
@@ -54,7 +50,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-
   .App {
     display: flex;
     flex-direction: column;
@@ -80,7 +75,6 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
-
   .App {
     display: flex;
     flex-direction: column;
@@ -103,10 +97,9 @@
     width: 100%;
     justify-content: space-between;
   }
-  
 }
 
-@media screen and (min-width: 376px) and (max-width: 767px){
+@media screen and (min-width: 376px) and (max-width: 767px) {
   .App {
     display: flex;
     flex-direction: column;
